@@ -28,9 +28,9 @@ async def start(client, message):
    if message.chat.type == 'private':
        await Jebot.send_message(
                chat_id=message.chat.id,
-               text="""<b>Hey There, I'm AnyDL Bot
+               text="""<b>Hey There, I'm youtube
 
-I can download video or audio from Youtube. Made by @ImJanindu 🇱🇰
+I can download video or audio from Youtube. Made by fahad
 
 Hit help button to find out more about how to use me</b>""",   
                             reply_markup=InlineKeyboardMarkup(
